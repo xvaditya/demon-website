@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ember & Oak - Premium Urban Café & Coffee House offering freshly roasted coffee and artisan pastries">
+    <title>Ember & Oak - Urban Café & Coffee House</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Ember & Oak</a>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">EMBER & OAK</h1>
+            <p class="hero-subtitle">Urban Café & Coffee House</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-primary">View Menu</a>
+                <a href="contact.html" class="btn btn-secondary">Get Directions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT PREVIEW SECTION -->
+    <section class="about-preview section">
+        <div class="container">
+            <div class="two-column">
+                <!-- Image Column -->
+                <div class="column image-column">
+                    <div class="image-placeholder">
+                        <img src="images/cafe-interior.jpg" alt="Ember & Oak Café Interior" loading="lazy">
+                    </div>
+                </div>
+                
+                <!-- Text Column -->
+                <div class="column text-column">
+                    <h2 class="section-title">Where Coffee Meets Community</h2>
+                    <p class="section-text">
+                        Nestled in the heart of the city, Ember & Oak is more than just a café—it's a sanctuary for coffee lovers and dreamers alike. We believe in the art of slow coffee, meaningful conversations, and creating moments that linger long after the last sip.
+                    </p>
+                    <p class="section-text">
+                        Our beans are ethically sourced and roasted in-house, ensuring every cup tells a story of quality, passion, and craftsmanship.
+                    </p>
+                    <a href="about.html" class="btn btn-text">Learn More About Us →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- POPULAR ITEMS SECTION -->
+    <section class="popular-items section section-dark">
+        <div class="container">
+            <h2 class="section-title centered">Customer Favorites</h2>
+            <p class="section-subtitle centered">Handpicked selections that keep our guests coming back</p>
+            
+            <div class="cards-grid">
+                <!-- Item Card 1 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/espresso.jpg" alt="Classic Espresso" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Classic Espresso</h3>
+                        <p class="card-description">Rich, bold, and perfectly extracted</p>
+                        <p class="card-price">$3.50</p>
+                    </div>
+                </div>
+                
+                <!-- Item Card 2 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/cold-brew.jpg" alt="Cold Brew" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Cold Brew</h3>
+                        <p class="card-description">Smooth, refreshing, 18-hour steeped</p>
+                        <p class="card-price">$4.50</p>
+                    </div>
+                </div>
+                
+                <!-- Item Card 3 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/croissant.jpg" alt="Butter Croissant" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Butter Croissant</h3>
+                        <p class="card-description">Flaky, buttery, baked fresh daily</p>
+                        <p class="card-price">$4.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section class="why-choose section">
+        <div class="container">
+            <h2 class="section-title centered">Why Ember & Oak?</h2>
+            <p class="section-subtitle centered">Experience the difference</p>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature">
+                    <div class="feature-icon">☕</div>
+                    <h3 class="feature-title">Freshly Roasted Beans</h3>
+                    <p class="feature-text">We roast our beans in-house weekly, ensuring peak freshness and flavor in every cup.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature">
+                    <div class="feature-icon">🪴</div>
+                    <h3 class="feature-title">Cozy Ambience</h3>
+                    <p class="feature-text">Thoughtfully designed spaces perfect for work, study, or catching up with friends.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature">
+                    <div class="feature-icon">📶</div>
+                    <h3 class="feature-title">Free Wi-Fi</h3>
+                    <p class="feature-text">High-speed internet throughout the café. Stay connected while you sip.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature">
+                    <div class="feature-icon">📍</div>
+                    <h3 class="feature-title">Central Location</h3>
+                    <p class="feature-text">Conveniently located in the heart of downtown, easily accessible by public transit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section class="location-section section section-dark">
+        <div class="container">
+            <h2 class="section-title centered">Visit Us</h2>
+            
+            <div class="location-container">
+                <!-- Map Column -->
+                <div class="location-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878459418!3d40.74076864379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1234567890"
+                        width="100%"
+                        height="400"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Ember & Oak Location Map">
+                    </iframe>
+                </div>
+                
+                <!-- Info Column -->
+                <div class="location-info">
+                    <div class="info-block">
+                        <h3>Address</h3>
+                        <p>123 Urban Street<br>Downtown District<br>New York, NY 10001</p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3>Opening Hours</h3>
+                        <p>
+                            Monday - Friday: 7:00 AM - 8:00 PM<br>
+                            Saturday - Sunday: 8:00 AM - 9:00 PM
+                        </p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3>Contact</h3>
+                        <p>
+                            Phone: (555) 123-4567<br>
+                            Email: hello@emberandoak.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3 class="footer-logo">Ember & Oak</h3>
+                <p class="footer-tagline">Urban Café & Coffee House</p>
+            </div>
+            
+            <div class="footer-links">
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="footer-contact">
+                <p>📞 (555) 123-4567</p>
+                <p>📍 123 Urban Street, New York, NY 10001</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ember & Oak. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
